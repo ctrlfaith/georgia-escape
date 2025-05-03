@@ -26,16 +26,32 @@
 
 รวมภาพแสดงตัวอย่างหน้าเว็บทั้งหมดไว้ในโฟลเดอร์ `screenshots-web-project/` เช่น:
 
-- หน้าแรก(Homepage) 
+- Homepage
   ![Homepage](georgia-escape/screenshots-web-project/index.png)
 
-- รายละเอียดทัวร์ไวน์  
-  ![Wine Tour](screenshots-web-project/tour-details-wine.png)
+- Packages
+  ![packagespage](georgia-escape/screenshots-web-project/packages.png)
 
-- หน้าจองทัวร์  
-  ![Reserve](screenshots-web-project/reserve.png)
+- Tour-details-tbilisi
+  ![details](georgia-escape/screenshots-web-project/tour-details-tbilisi.png)
 
-> *หมายเหตุ: เปลี่ยนชื่อภาพในตัวอย่างด้านบนให้ตรงกับชื่อไฟล์ภาพจริงในโฟลเดอร์ `screenshots-web-project`*
+- Tour-details-highland
+  ![details](georgia-escape/screenshots-web-project/tour-details-highland.png)
+
+- Tour-details-wine
+  ![details](georgia-escape/screenshots-web-project/tour-details-wine.png)
+
+- About
+  ![aboutpage](georgia-escape/screenshots-web-project/about.png)
+
+- Contact 
+  ![contactpage](georgia-escape/screenshots-web-project/contact.png)
+
+- Blog
+  ![blog](georgia-escape/screenshots-web-project/blog.png)
+
+- Reserve 
+  ![contactpage](georgia-escape/screenshots-web-project/reserve.png)
 
 ## 🙋‍♂️ ผู้พัฒนา
 
