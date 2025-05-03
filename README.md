@@ -26,8 +26,8 @@
 
 รวมภาพแสดงตัวอย่างหน้าเว็บทั้งหมดไว้ในโฟลเดอร์ `screenshots-web-project/` เช่น:
 
-- หน้าแรก  
-  ![Homepage](screenshots-web-project/homepage.png)
+- หน้าแรก(Homepage) 
+  ![Homepage](georgia-escape/screenshots-web-project/index.png)
 
 - รายละเอียดทัวร์ไวน์  
   ![Wine Tour](screenshots-web-project/tour-details-wine.png)
