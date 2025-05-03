@@ -26,7 +26,7 @@
   ![details](georgia-escape/screenshots-web-project/tour-details-wine.png)
 
 - **About**
-  ![aboutpage](georgia-escape/screenshots-web-project/about.png)
+  ![about](georgia-escape/screenshots-web-project/about.png)
 
 - **Contact** 
   ![contactpage](georgia-escape/screenshots-web-project/contact.png)
