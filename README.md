@@ -5,7 +5,7 @@
 สร้างด้วย **HTML, CSS, JavaScript** และ **Bootstrap** เพื่อให้สามารถใช้งานได้ทั้งบนเดสก์ท็อปและมือถือ
 
 ## ⚙️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+- **Frontend:** HTML5, CSS3, JavaScript
 - **Styling Framework:** Bootstrap 5
 
 ## 📸 Preview Screenshots
