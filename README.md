@@ -10,31 +10,31 @@
 
 ## 📸 Preview Screenshots
 
-- Homepage
+- **Homepage**
   ![Homepage](georgia-escape/screenshots-web-project/index.png)
 
-- Packages
+- **Packages**
   ![packagespage](georgia-escape/screenshots-web-project/packages.png)
 
-- Tour-details-tbilisi
+- **Tour-details-tbilisi**
   ![details](georgia-escape/screenshots-web-project/tour-details-tbilisi.png)
 
-- Tour-details-highland
+- **Tour-details-highland**
   ![details](georgia-escape/screenshots-web-project/tour-details-highland.png)
 
-- Tour-details-wine
+- **Tour-details-wine**
   ![details](georgia-escape/screenshots-web-project/tour-details-wine.png)
 
-- About
+- **About**
   ![aboutpage](georgia-escape/screenshots-web-project/about.png)
 
-- Contact 
+- **Contact** 
   ![contactpage](georgia-escape/screenshots-web-project/contact.png)
 
-- Blog
+- **Blog**
   ![blog](georgia-escape/screenshots-web-project/blog.png)
 
-- Reserve 
+- **Reserve** 
   ![contactpage](georgia-escape/screenshots-web-project/reserve.png)
 
 ## 🙋‍♂️ ผู้พัฒนา
