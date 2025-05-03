@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Contact Georgia Escape to plan your dream trip to Tbilisi, Kakheti, or Kazbegi. Reach us via form, email, or phone.">
+  <meta property="og:title" content="Contact Us - Georgia Escape">
+  <meta property="og:description" content="Get in touch with Georgia Escape for personalized travel experiences in Georgia. Submit your inquiry or call us today.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1599732905368-6640f0d1e602?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3">
+  <meta property="og:url" content="https://www.georgiaescape.com/contact.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Contact Us - Georgia Escape</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .btn-dark:hover {
+      background-color: #333;
+      border-color: #333;
+    }
+    .social-icon:hover {
+      color: #000 !important;
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .form-control:focus {
+      border-color: #000;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4 text-dark" href="index.html">Georgia Escape</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="packages.html">Packages</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="reserve.html">Reserve</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="position-relative fade-in" style="height: 80vh; background: url('https://images.unsplash.com/photo-1526399743290-f73cb4022f48?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;">
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="container h-100 d-flex align-items-center justify-content-center text-white position-relative">
+      <div class="text-center">
+        <h1 class="display-4 fw-bold">Get in Touch</h1>
+        <p class="lead">We’re here to help plan your perfect Georgia adventure</p>
+        <p class="text-white small">Our team is excited to hear from you!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-5 fade-in">
+    <div class="container">
+      <h2 class="fw-semibold mb-4 text-center">Send Us a Message</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form id="contactForm">
+            <div class="mb-3 position-relative">
+              <label for="name" class="form-label">Name</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-person text-dark"></i></span>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+            </div>
+            <div class="mb-3 position-relative">
+              <label for="email" class="form-label">Email</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-envelope text-dark"></i></span>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="tour" class="form-label">Interested Tour</label>
+              <select class="form-control" id="tour">
+                <option value="" disabled selected>Select a tour</option>
+                <option value="tbilisi">Tbilisi & Beyond</option>
+                <option value="wine">Wine & Wellness</option>
+                <option value="highland">Highland Adventure</option>
+                <option value="custom">Custom Tour</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Tell us about your dream Georgia trip!" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-dark btn-lg rounded-pill px-5">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="py-5 bg-light fade-in">
+    <div class="container">
+      <h3 class="fw-semibold mb-4 text-center">What Our Travelers Say</h3>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5">
+          <div class="p-4 border rounded shadow-sm bg-white h-100">
+            <p class="text-muted fst-italic">“The team at Georgia Escape was so responsive and made our trip unforgettable!”</p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="Laura" class="rounded-circle me-3" width="50" height="50">
+              <p class="fw-semibold mb-0">Charlie, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+<section class="py-5 fade-in">
+    <div class="container">
+      <h2 class="fw-semibold mb-4 text-center">Contact Information</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 border rounded bg-white h-100">
+            <h5 class="fw-semibold mb-3">Meet Our Tbilisi Team</h5>
+            <p class="text-muted mb-4">We’re ready to plan your adventure!</p>
+            <div class="d-flex flex-column gap-3 mb-4">
+              <div class="team-card d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/women/8.jpg" class="rounded-circle border border-light" alt="Ana Giorgadze" width="48" height="48">
+                <p class="text-muted small ms-3 mb-0">Ana Giorgadze</p>
+              </div>
+              <div class="team-card d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/men/34.jpg" class="rounded-circle border border-light" alt="Giorgi Kapanadze" width="48" height="48">
+                <p class="text-muted small ms-3 mb-0">Giorgi Kapanadze</p>
+              </div>
+              <div class="team-card d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle border border-light" alt="Nino Tskhvedadze" width="48" height="48">
+                <p class="text-muted small ms-3 mb-0">Nino Beridze</p>
+              </div>
+            </div>
+            <p class="text-muted"><i class="bi bi-envelope me-2 text-secondary"></i>Email: info@georgiaescape.com</p>
+            <p class="text-muted"><i class="bi bi-telephone me-2 text-secondary"></i>Phone: +995 123 456 789</p>
+            <p class="text-muted"><i class="bi bi-geo-alt me-2 text-secondary"></i>Address: 12 Rustaveli Ave, Tbilisi, Georgia</p>
+            <div class="mt-3">
+              <a href="https://facebook.com" class="text-muted me-3 social-icon"><i class="bi bi-facebook fs-5"></i></a>
+              <a href="https://instagram.com" class="text-muted me-3 social-icon"><i class="bi bi-instagram fs-5"></i></a>
+              <a href="https://twitter.com" class="text-muted social-icon"><i class="bi bi-twitter fs-5"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="ratio ratio-4x3 rounded shadow">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.733119073364!2d44.79711631542794!3d41.69513597923768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e3b8c7e7%3A0x1c8e3749068e7c4e!2sRustaveli%20Ave%2C%20Tbilisi%2C%20Georgia!5e0!3m2!1sen!2sge!4v1738661234567!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-5 text-center bg-light fade-in">
+    <div class="container">
+      <h3 class="fw-semibold mb-3">Start Your Georgia Journey Today!</h3>
+      <p class="text-muted mb-4">Explore our curated tours or call us for a personalized adventure.</p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="packages.html" class="btn btn-dark btn-lg rounded-pill px-5">Explore Tours</a>
+        <a href="tel:+995123456789" class="btn btn-outline-dark btn-lg rounded-pill px-5">Call Us Now</a>
+      </div>
+      <div class="text-center mt-4">
+        <p class="text-muted">Share this page:</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.georgiaescape.com/contact.html" class="text-muted me-3 social-icon"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://www.georgiaescape.com/contact.html&text=Plan your Georgia adventure with Georgia Escape!" class="text-muted me-3 social-icon"><i class="bi bi-twitter fs-5"></i></a>
+        <a href="https://wa.me/?text=Contact Georgia Escape for your next trip: https://www.georgiaescape.com/contact.html" class="text-muted social-icon"><i class="bi bi-whatsapp fs-5"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 mt-5 bg-light text-muted small">
+    <div class="container">
+      <div class="mb-3">
+        <a href="https://facebook.com" class="text-muted me-3 social-icon"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com" class="text-muted me-3 social-icon"><i class="bi bi-instagram"></i></a>
+        <a href="https://twitter.com" class="text-muted social-icon"><i class="bi bi-twitter"></i></a>
+      </div>
+      <div class="mb-3">
+        <a href="privacy.html" class="text-muted me-3">Privacy Policy</a>
+        <a href="terms.html" class="text-muted">Terms of Use</a>
+      </div>
+      <div>Contact: <a href="mailto:info@georgiaescape.com" class="text-muted">info@georgiaescape.com</a> | +995 123 456 789</div>
+      <div class="mt-3">© 2025 Georgia Escape. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelector('#contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      gtag('event', 'submit_contact_form', {
+        'event_category': 'Contact Page',
+        'event_label': 'Contact Form Submission'
+      });
+      alert('Thank you for your message! We will get back to you soon.');
+      e.target.reset();
+    });
+    document.querySelectorAll('.btn-dark, .btn-outline-dark').forEach(btn => {
+      btn.addEventListener('click', () => {
+        gtag('event', 'click_cta', {
+          'event_category': 'Contact Page',
+          'event_label': btn.textContent.trim()
+        });
+      });
+    });
+  </script>
+</body>
+</html>
