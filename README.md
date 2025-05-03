@@ -10,8 +10,6 @@
 
 ## 📸 Preview Screenshots
 
-รวมภาพแสดงตัวอย่างหน้าเว็บทั้งหมดไว้ในโฟลเดอร์ `screenshots-web-project/` เช่น:
-
 - Homepage
   ![Homepage](georgia-escape/screenshots-web-project/index.png)
 
