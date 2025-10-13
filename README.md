@@ -1,42 +1,59 @@
-# 🏔️ Georgia Escape
+# 🏔️ Georgia Escape  
 
-**Georgia Escape** คือเว็บไซต์สำหรับการจองแพ็กเกจทัวร์ท่องเที่ยวประเทศจอร์เจีย  
-ออกแบบมาเพื่อแสดงข้อมูลสถานที่ท่องเที่ยว แพ็กเกจทัวร์ และรายละเอียดการจองอย่างครบถ้วน  
-สร้างด้วย **HTML, CSS, JavaScript** และ **Bootstrap** เพื่อให้สามารถใช้งานได้ทั้งบนเดสก์ท็อปและมือถือ
+**Georgia Escape** เป็นเว็บไซต์ตัวอย่างที่พัฒนาขึ้นเพื่อฝึกการสร้างเว็บด้วย **HTML, CSS, JavaScript** และ **Bootstrap**  
+แนวคิดของเว็บคือ “แพลตฟอร์มสำหรับจองแพ็กเกจทัวร์ประเทศจอร์เจีย”  
+โดยภายในมีหน้าแสดงสถานที่ท่องเที่ยว รายละเอียดแพ็กเกจทัวร์ และฟอร์มสำหรับการจอง  
 
-## ⚙️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Styling Framework:** Bootstrap 5
+โปรเจกต์นี้เป็นการฝึกออกแบบหน้าเว็บให้ดูเป็นมืออาชีพและใช้งานได้จริง  
+พร้อมรองรับการแสดงผลทั้งบนคอมพิวเตอร์และโทรศัพท์มือถือ (Responsive Design)  
 
-## 📸 Preview Screenshots
+---
 
-- **Homepage**
-  ![Homepage](georgia-escape/screenshots-web-project/index.png)
+## ⚙️ เทคโนโลยีที่ใช้ (Tech Stack)  
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Styling Framework:** Bootstrap 5, Google Fonts (Poppins, Roboto)  
 
-- **Packages**
-  ![packagespage](georgia-escape/screenshots-web-project/packages.png)
+---
 
-- **Tour-details-tbilisi**
-  ![details](georgia-escape/screenshots-web-project/tour-details-tbilisi.png)
+## 🎯 จุดประสงค์ของโปรเจกต์  
+- เพื่อฝึกการออกแบบโครงสร้างเว็บไซต์ด้วย HTML และ CSS  
+- เพื่อเรียนรู้การใช้ Bootstrap ในการจัดวางเลย์เอาต์และทำ Responsive Design  
+- เพื่อฝึกการจัดการเนื้อหาและส่วนประกอบของเว็บแบบครบทั้งหน้า Home, About, Blog, Contact และ Reservation  
 
-- **Tour-details-highland**
-  ![details](georgia-escape/screenshots-web-project/tour-details-highland.png)
+---
 
-- **Tour-details-wine**
-  ![details](georgia-escape/screenshots-web-project/tour-details-wine.png)
+## 📸 ตัวอย่างภาพหน้าจอ  
 
-- **About**
-  ![about](georgia-escape/screenshots-web-project/about.png)
+- **Homepage**  
+  ![Homepage](georgia-escape/screenshots-web-project/index.png)  
 
-- **Contact** 
-  ![contactpage](georgia-escape/screenshots-web-project/contact.png)
+- **Packages**  
+  ![Packages](georgia-escape/screenshots-web-project/packages.png)  
 
-- **Blog**
-  ![blog](georgia-escape/screenshots-web-project/blog.png)
+- **Tour Details – Tbilisi**  
+  ![Tbilisi](georgia-escape/screenshots-web-project/tour-details-tbilisi.png)  
 
-- **Reserve** 
-  ![contactpage](georgia-escape/screenshots-web-project/reserve.png)
+- **Tour Details – Highland**  
+  ![Highland](georgia-escape/screenshots-web-project/tour-details-highland.png)  
 
-## 🙋‍♂️ ผู้พัฒนา
+- **Tour Details – Wine**  
+  ![Wine](georgia-escape/screenshots-web-project/tour-details-wine.png)  
 
-- GitHub: [@ctrlfaith](https://github.com/ctrlfaith)
+- **About**  
+  ![About](georgia-escape/screenshots-web-project/about.png)  
+
+- **Contact**  
+  ![Contact](georgia-escape/screenshots-web-project/contact.png)  
+
+- **Blog**  
+  ![Blog](georgia-escape/screenshots-web-project/blog.png)  
+
+- **Reserve**  
+  ![Reserve](georgia-escape/screenshots-web-project/reserve.png)  
+
+---
+
+## 👨‍💻 ผู้พัฒนา  
+- **ชื่อ:** ภูริพัฒนชัย รัตนาธรรม  
+- **GitHub:** [@ctrlfaith](https://github.com/ctrlfaith)  
+- **ประเภทโปรเจกต์:** Self-learning / Frontend Practice
