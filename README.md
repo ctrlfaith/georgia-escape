@@ -29,8 +29,8 @@
 
 | หมวด | รายละเอียด |
 |------|-------------|
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Framework / Library** | Bootstrap 5 |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Framework / Library** | Bootstrap |
 | **Fonts** | Google Fonts (Poppins, Roboto) |
 
 ---
